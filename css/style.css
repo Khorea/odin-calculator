@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    border-color: black;
+    border-style:double;
+    border-radius: 5px;
+    border-width: 10px;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-bottom: solid;
+    height: 55px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+
+button {
+    width: 25px;
+    flex-grow: 1;
+    border-width: 1px;
+    border-radius: 0px;
+}
+
+.zero {
+    width: 50px;
+    flex-grow: 2;
+}
+
+.other {
+    background-color: #95D9DA;
+}
+
+.operator {
+    background-color: #AF91A9;
+}
+
+.operand {
+    color: black;
+    background-color: #A0A3B5;
+}
+
+.screen {
+    background-color: yellowgreen;
+}
+
+.current-number {
+    color: magenta;
+}
+
+.full-operation {
+    color: magenta;
+}
