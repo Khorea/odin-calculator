@@ -57,7 +57,7 @@ button {
 
 .selected-button {
     background-color: black;
-    scale: 2;
+    -webkit-transform: scale(0.85);
 }
 
 .zero {
