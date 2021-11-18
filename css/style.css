@@ -5,6 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     min-height: 100vh;
+    background-color: papayawhip;
 }
 
 .content {
@@ -51,6 +52,12 @@ button {
     flex-grow: 1;
     border-width: 1px;
     border-radius: 0px;
+    transition: 0.03s;
+}
+
+.selected-button {
+    background-color: black;
+    scale: 2;
 }
 
 .zero {
@@ -59,26 +66,26 @@ button {
 }
 
 .other {
-    background-color: #95D9DA;
+    background-color: powderblue;
 }
 
 .operator {
-    background-color: #AF91A9;
+    background-color:orange;
 }
 
 .operand {
-    color: black;
-    background-color: #A0A3B5;
+    color: white;
+    background-color: grey;
 }
 
 .screen {
-    background-color: yellowgreen;
+    background-color:seashell;
 }
 
 .current-number {
-    color: magenta;
+    color: black;
 }
 
 .full-operation {
-    color: magenta;
+    color: black;
 }
