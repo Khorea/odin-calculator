@@ -21,8 +21,8 @@ body {
     border-style:double;
     border-radius: 5px;
     border-width: 10px;
-    width: 250px;
-    height: 400px;
+    width: min(250px, 100vw);
+    height: min(400px, 100vh);
     display: flex;
     flex-direction: column;
 }
